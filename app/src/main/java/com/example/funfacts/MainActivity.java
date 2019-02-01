@@ -41,8 +41,8 @@ public class MainActivity extends AppCompatActivity {
             }
         };
         showFactButton.setOnClickListener(listener);
-        Log.d(TAG,"We' re logging from onCreate() method!");
-        Toast.makeText(this,"yay!",Toast.LENGTH_SHORT).show();
+//        Log.d(TAG,"We' re logging from onCreate() method!");
+//        Toast.makeText(this,"yay!",Toast.LENGTH_SHORT).show();
 
     }
 }

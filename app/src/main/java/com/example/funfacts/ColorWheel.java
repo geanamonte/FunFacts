@@ -1,5 +1,7 @@
 package com.example.funfacts;
 
+import android.graphics.Color;
+
 import java.util.Random;
 
 class ColorWheel {
@@ -22,7 +24,7 @@ class ColorWheel {
     int getColor(){
         Random randomGenerator = new Random();
         int randomNumber = randomGenerator.nextInt(colors.length);
-        int color = Integer.parseInt(colors[randomNumber]);
+        int color = Color.parseColor(colors[randomNumber]);
         return color;
     }
 }
